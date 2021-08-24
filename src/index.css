@@ -1,0 +1,104 @@
+ 
+.headerset{
+  padding-top: 240px;
+  box-sizing: border-box;
+  
+} 
+
+.nav-link :hover{
+	color: orange;
+}
+
+.header-wrape{
+	position: relative;
+	background:url(/src/img/back.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+.main-info{
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.main-info h1{
+	color:orange;
+}
+.typed-text{
+	font-size: 2rem;
+	color:white;
+}
+.s-box:hover{
+    transform:translateY(-10px);
+    transition: all ease 0.3s;
+	
+}
+
+
+/* About */
+
+#about{
+	width:100%;
+	height: 100vh;
+	background-color:#ffffff;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.about-text{
+	width: 50%;
+}
+.about-text h2{
+	font-size: 2rem;
+	color:orange;
+	font-weight: 500;
+}
+.about-text h2{
+	margin: 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 1.2rem;
+	color:#797979;
+	
+}
+.about-model img{
+    height: 500px;
+}
+.con-me{
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
